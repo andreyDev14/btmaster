@@ -1,0 +1,81 @@
+.master
+	margin-bottom: 50px
+
+	.container
+		padding-top: 70px
+		padding-bottom: 75px
+
+		overflow: hidden
+
+		&:before
+			content: ''
+			position: absolute
+			left: 0px
+			top: 0
+			
+			width: 289px
+			height: 51px
+			 
+			background: url(../img/master-before.png) center / contain no-repeat 
+
+		&:after
+			content: ''
+			position: absolute
+			right: 244px
+			bottom: 0
+			
+			width: 347px
+			height: 37px
+
+			background: url(../img/master-after.png) center / contain no-repeat 
+
+	&__title
+		margin-bottom: 25px
+
+	&-wrapper
+		display: flex
+		justify-content: space-between
+	
+	&__item
+		display: flex
+		align-items: center
+		width: 32%
+
+		&-left
+			width: 165px
+
+		&-img
+			width: 165px
+			height: 165px
+
+			border-radius: 50%
+			background-position: center
+			background-repeat: no-repeat
+			background-size: cover
+
+		&-right
+			width: 54%
+			margin-left: 15px
+
+		&-name
+			margin-bottom: 18px
+
+			font-size: 18px
+			font-weight: 400
+			+gil-eb
+
+		&-exp, &-prof
+			margin-bottom: 5px
+
+			font-size: 14px
+			font-weight: 400
+
+			span				
+				+gil-b
+			
+		&-prof
+			max-width: 177px
+			margin-bottom: 0
+
+			span
+				display: block

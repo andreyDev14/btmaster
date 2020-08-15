@@ -1,0 +1,124 @@
+.services
+	margin-bottom: 87px
+
+	&__title
+		margin-bottom: 38px
+
+	&-wrapper
+		display: flex
+		justify-content: space-between
+
+	&__back
+		position: absolute
+		left: 0
+		top: 0
+		z-index: -1
+
+		display: flex
+		flex-direction: column
+		align-items: center
+		min-height: 100%
+
+		padding: 45px 31px 121px 31px
+		
+		background-image: linear-gradient(to left, #2c2a38 0%, #444452 100%)
+		border-radius: 4px
+
+		opacity: 0
+		transition: all .7s ease-in-out
+
+		&-title
+			margin-bottom: 35px
+
+			font-size: 18px
+			font-weight: 700
+
+		&-text
+			font-size: 16px
+			font-weight: 400
+			+gil-l
+
+		&-button
+			position: absolute
+			left: 50%
+			bottom: 32px
+
+			width: 100%
+			max-width: 301px
+			height: 60px
+			transform: translateX(-50%)
+			
+			font-size: 16px
+			font-weight: 700
+			color: #000000
+
+			border-radius: 30px
+			background-color: #ffffff
+
+			+trs
+
+			&:hover
+				background: $act
+				color: #ffffff
+
+	&__item
+		position: relative
+
+		display: flex
+		flex-direction: column
+		justify-content: space-between
+		align-items: center
+		width: 100%
+		max-width: 360px
+		min-height: 419px
+		margin-right: 30px
+		padding: 52px 31px 0px 31px
+
+		color: #ffffff
+
+		border-radius: 4px
+		background-color: #f5f7f9
+		background-image: linear-gradient(-214deg, #7737fb 0%, #4e00ff 100%)
+
+		// overflow: hidden
+
+		&:hover
+			.services__back
+				// transform: translatey(0)
+				opacity: 1
+				z-index: 2
+
+		&:last-child
+			margin-right: 0
+
+		&-title
+			text-align: center
+			font-size: 22px
+			font-weight: 700
+
+		&-button
+			display: none
+
+			position: absolute
+			top: 90px
+
+			width: 100%
+			max-width: 201px
+			height: 40px
+
+			font-size: 16px
+			font-weight: 700
+			color: #000000
+
+			border-radius: 30px
+			background-color: #ffffff
+
+		// &-img
+		// 	position: absolute
+		// 	left: 50%
+		// 	bottom: 0
+		// 	transform: translateX(-50%)
+
+
+
+

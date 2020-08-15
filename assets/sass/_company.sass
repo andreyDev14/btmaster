@@ -1,0 +1,102 @@
+.company
+	position: relative
+
+	min-height: 500px
+
+	overflow: hidden
+
+	.container
+		position: relative
+		
+		overflow: hidden
+
+		&:after
+			content: ''
+			
+			position: absolute
+			right: 0
+			top: 0
+			
+			width: 345px
+			height: 127px
+			transform: translateX(50%)
+
+			background: url(../img/company-after.png) center / contain no-repeat 
+			
+	&-bg
+		position: absolute
+		left: 0
+		top: 0
+
+		width: 49.2%
+		height: 500px
+
+		background: url(../img/company-bg.jpg) center right / cover no-repeat 
+
+	&-wrapper
+		display: flex
+		flex-direction: column
+		max-width: 50%
+		margin-left: auto
+		padding-left: 16px
+		padding-top: 95px
+
+	&__title
+		max-width: 400px
+		margin-bottom: 12px
+		
+		color: #000000
+		+gil-eb
+		font-size: 38px
+		font-weight: 400
+
+		span
+			color: #fa263f
+
+	&__text
+		margin-bottom: 18px
+
+		font-size: 16px
+		font-weight: 400
+
+	&__form
+		&-text
+			margin-bottom: 12px 
+
+			color: #9b9b9b
+			font-style: italic
+			font-size: 16px
+			font-weight: 400
+
+		.input-wrapper
+			display: flex
+
+		span
+			width: 263px
+			margin-right: 10px
+
+			input
+				height: 47px
+
+				border-radius: 24px
+				border: 1px solid #c6c6c6
+				background-color: #ffffff
+
+		.submit-button
+			width: 215px
+
+			input
+				height: 47px
+
+				line-height: 1.1
+				padding: 0
+
+		small
+			display: block
+			margin-top: 15px
+
+			color: #9b9b9b
+			font-size: 12px
+			font-weight: 400
+
+

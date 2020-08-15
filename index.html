@@ -1,0 +1,945 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="assets/css/vendor.min.css">
+
+	<title>Ремонт бытовой техники</title>
+</head>
+
+<body>
+
+	<!-- begin header -->
+	<header id="header" class="header">
+		<div class="header__top-wrapper header__top-wrapper_fixed">
+			<div class="container">
+				<div class="header__top">
+					<div class="header__left">
+						<a href="#header" class="scroll logo-wrapper">
+							<svg class='logo'>
+								<use xlink:href='assets/sprite.svg#logo'></use>
+							</svg>
+							<p><span>BT <small>master</small></span>
+								Ремонт бытовой техники в Воронеже</p>
+						</a>
+					</div>
+					<div class="header__right">
+						<ul class="header__menu_fixed">
+							<li><a href="#features">Преимущества</a></li>
+							<li><a href="#price">Прайс</a></li>
+							<li><a href="#company">О компании</a></li>
+							<li><a href="#feedback">Отзывы</a></li>
+							<li><a href="#contact">Контакты</a></li>
+						</ul>
+						<a class="header__tel" href="tel:+79271318032">
+							<svg class='phone'>
+								<use xlink:href='assets/sprite.svg#phone'></use>
+							</svg>
+							<span>+7 (927) 131-80-32</span>
+						</a>
+						<button class="button header__button modal__button">Вызвать мастера</button>
+						<a href="#" class="menu-link">
+							<span class="menu-lines"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header__main margin">
+			<div class="header__bottom-wrapper">
+				<div class="container">
+					<div class="header__bottom">
+						<ul class="menu header__menu">
+							<li><a href="#features">Преимущества</a></li>
+							<li><a href="#price">Прайс</a></li>
+							<li><a href="#company">О компании</a></li>
+							<li><a href="#feedback">Отзывы</a></li>
+							<li><a href="#contact">Контакты</a></li>
+						</ul>
+						<div class="header__bottom_mobile">
+							<a class="header__tel" href="tel:+78005509696">
+								<svg class='phone'>
+									<use xlink:href='assets/sprite.svg#phone'></use>
+								</svg>
+								<span>+7 (800) 550- 96- 96</span>
+							</a>
+							<button class="button header__button modal__button">Вызвать мастера</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="header__main-wrapper">
+					<img src="assets/img/header-img.png" alt="img" class="header__img">
+					<img src="assets/img/header-img-2.png" alt="img" class="header__img_right">
+					<h1>Выездной ремонт бытовой техники
+						<span>в Воронеже</span></h1>
+					<div class="header__features">
+						<div class="header__features-item">
+							<svg class='clock'>
+								<use xlink:href='assets/sprite.svg#clock'></use>
+							</svg>
+							<p>Выезд в течение <br>
+								1 часа</p>
+						</div>
+						<div class="header__features-item">
+							<svg class='check'>
+								<use xlink:href='assets/sprite.svg#check'></use>
+							</svg>
+							<p>Гарантия на <br>
+								работу</p>
+						</div>
+						<div class="header__features-item">
+							<svg class='interface'>
+								<use xlink:href='assets/sprite.svg#interface'></use>
+							</svg>
+							<p>Профессиональные<br>
+								мастера</p>
+						</div>
+					</div>
+					<div class="form header__form">
+						<div class="header__form-text">Заполните форму ниже и мы перезвоним Вам</div>
+						<form action="#">
+							<div class="input-wrapper">
+								<span>
+									<input name="tel" type="tel" placeholder="Ваш номер" required>
+								</span>
+								<div class="submit-button">
+									<input type="submit" value="Вызвать мастера">
+								</div>
+							</div>
+						</form>
+						<small>Нажимая кнопку “Вызвать мастера” Вы соглашаетесь
+							на обработку данных.</small>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- end header -->
+
+	<!-- begin offer -->
+	<section id="offer" class="offer margin">
+		<div class="container">
+			<div class="offer-wrapper">
+				<div class="offer__left">
+					<h2 class="offer__title"><span>Получите скидку 15%</span> при заказе с сайта. На любую поломку!</h2>
+					<div class="offer__form">
+						<form action="#">
+							<div class="input-wrapper">
+								<input type="hidden" name="disc" value="15%">
+								<span>
+									<input type="tel" name="tel" placeholder="Ваш телефон" required>
+								</span>
+								<div class="submit-button">
+									<input type="submit" value="Получить скидку">
+								</div>
+							</div>
+							<small>Нажимая кнопку "Получить скидку" Вы соглашаетесь на обработку данных</small>
+						</form>
+					</div>
+				</div>
+				<img src="assets/img/offer-img.png" alt="img" class="offer__img">
+			</div>
+		</div>
+	</section>
+	<!-- end offer -->
+
+	<!-- begin services -->
+	<section id="services" class='services margin'>
+		<div class='container'>
+			<h2 class='services__title title'>Основные услуги нашей компании</h2>
+			<div class='services-wrapper'>
+				<div class="services__item">
+					<div class="services__item-title">Ремонт <br> холодильников</div>
+					<button class="services__item-button">Подробнее</button>
+					<img src="assets/img/services/1.png" alt="img" class="services__item-img">
+					<div class="services__back">
+						<div class="services__back-title">Ремонт холодильников любой сложности</div>
+						<div class="services__back-text">
+							Наши сотрудники отремонтировали ни одну сотню холодильников и успели изучить неисправности популярных
+							моделей
+							вроде Samsung, Ariston, LG. Являясь универсальными специалистами, мастера могут исправить все от громкого
+							шума и
+							незакрывающейся дверцы до утечки хладагента.
+						</div>
+						<button class="services__back-button modal__button">Заказать ремонт</button>
+					</div>
+				</div>
+				<div class="services__item">
+					<div class="services__item-title">Ремонт посудомоечных машин</div>
+					<button class="services__item-button">Подробнее</button>
+					<img src="assets/img/services/2.png" alt="img" class="services__item-img">
+					<div class="services__back">
+						<div class="services__back-title">Ремонт посудомоечных машин
+							любой сложности</div>
+						<div class="services__back-text">
+							Возьмемся за ремонт любой посудомоечной машины независимо от модели и сложности поломки. Устраним засоры,
+							заменим
+							нагревательные элементы и проблемы с проводкой. Имеем опыт с устройствами Hansa, Electrolux, Bosch и
+							других
+							известных брендов. Для нас нет непоправимых неисправностей.
+						</div>
+						<button class="services__back-button modal__button">Заказать ремонт</button>
+					</div>
+				</div>
+				<div class="services__item">
+					<div class="services__item-title">Ремонт Стиральных <br>
+						машин</div>
+					<button class="services__item-button">Подробнее</button>
+					<img src="assets/img/services/3.png" alt="img" class="services__item-img">
+					<div class="services__back">
+						<div class="services__back-title">Ремонт Стиральных
+							машин любой сложности</div>
+						<div class="services__back-text">
+							Пожалуй, это самый распространенный вид техники, на ремонт которой вызывают наших мастеров. Поэтому каждый
+							из них
+							накопил внушительный опыт для быстрого и качественного устранения неполадок в различных моделях стиральных
+							машин.
+							На дому и с гарантией.
+
+						</div>
+						<button class="services__back-button modal__button">Заказать ремонт</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end services -->
+
+	<!-- begin features -->
+	<section id="features" class='features margin'>
+		<div class='container'>
+			<h2 class='features__title title'><span>Преимущества</span> работы с нами</h2>
+			<div class='features-wrapper'>
+				<div class="features__item modal__button">
+					<div class="features__item-title">95%</div>
+					<div class="features__item-text">Довольных клиентов</div>
+				</div>
+				<div class="features__item modal__button">
+					<div class="features__item-title">120+</div>
+					<div class="features__item-text">Положительных отзывов</div>
+				</div>
+				<div class="features__item modal__button">
+					<div class="features__item-title"><span>20</span> мин</div>
+					<div class="features__item-text">Среднее время ремонта</div>
+				</div>
+				<div class="features__item modal__button">
+					<div class="features__item-title">2</div>
+					<div class="features__item-text">Гарантийных случаев</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end features -->
+
+	<!-- begin price -->
+	<section id="price" class="price margin">
+		<div class="container">
+			<h2 class="price__title title"><span>Прайс </span>лист на наши услуги</h2>
+			<div class="price-wrapper">
+				<div class="price__left">
+					<a href="#tab1" class="price__left-item price__left-item_active">
+						<div class="price__left-icon">
+							<svg class='was'>
+								<use xlink:href='assets/sprite.svg#was'></use>
+							</svg>
+						</div>
+						<div class="price__left-title">Ремонт
+							стиральных
+							машин</div>
+					</a>
+					<a href="#tab2" class="price__left-item">
+						<div class="price__left-icon">
+							<svg class='dish'>
+								<use xlink:href='assets/sprite.svg#dish'></use>
+							</svg>
+						</div>
+						<div class="price__left-title">Ремонт
+							посудомоек</div>
+					</a>
+					<a href="#tab3" class="price__left-item">
+						<div class="price__left-icon">
+							<svg class='ref'>
+								<use xlink:href='assets/sprite.svg#ref'></use>
+							</svg>
+						</div>
+						<div class="price__left-title">Ремонт
+							холодильников</div>
+					</a>
+				</div>
+				<div class="price__right">
+					<div class="price__row price__row_title modal__button">
+						<span>Наименование услуги</span>
+						<span>Стоимость<small> услуги</small></span>
+						<span>Заказать</span>
+					</div>
+					<div id="tab1" class="price__table price__table_show">
+						<div class="price__row modal__button">
+							<span>Замена фильтра сливного насоса</span>
+							<span>от 763 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Замена амортизаторов</span>
+							<span>от 818 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Замена датчика уровня воды</span>
+							<span>от 872 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Замена заливного клапана</span>
+							<span>от 382 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Замена манжеты</span>
+							<span>от 709 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Замена ремня привода барабана</span>
+							<span>от 600 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Замена сетевого шнура</span>
+							<span>от 382 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Замена температурного датчика</span>
+							<span>от 491 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Замена ТЭНа</span>
+							<span>от 709 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Замена электронного модуля</span>
+							<span>от 818 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Извлечение посторонних предметов</span>
+							<span>от 763 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Устранение засора</span>
+							<span>от 491 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Замена помпы</span>
+							<span>от 763 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Замена ручек, петель</span>
+							<span>от 436 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Замена устройства блокировки люка (УБЛ)</span>
+							<span>от 818 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Замена фильтра залива воды</span>
+							<span>от 545 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Не греет воду</span>
+							<span>от 491 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Не сливает воду</span>
+							<span>от 491 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Не отжимает</span>
+							<span>от 600 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Шумит и вибрирует</span>
+							<span>от 818 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Не включается</span>
+							<span>от 382 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Не заливает воду</span>
+							<span>от 382 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Не вращается барабан</span>
+							<span>от 600 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Протекает</span>
+							<span>от 491 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Не открывается люк</span>
+							<span>от 436 руб.</span>
+							<span>Заказать</span>
+						</div>
+					</div>
+					<div id="tab2" class="price__table ">
+						<div class="price__row modal__button">
+							<span>Замена распылителя</span>
+							<span>от 305 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Замена ТЭНа</span>
+							<span>от 600 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Замена электронного модуля</span>
+							<span>от 872 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Замена помпы</span>
+							<span>от 654 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Замена устройства блокировки двери</span>
+							<span>от 763 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Не сливает воду</span>
+							<span>от 491 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Плохо моет</span>
+							<span>от 305 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Протекает</span>
+							<span>от 327 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Не греет воду</span>
+							<span>от 382 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Не включается</span>
+							<span>от 491 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Не сушит</span>
+							<span>от 382 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Шумит</span>
+							<span>от 327 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Заливается вода</span>
+							<span>от 327 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Не заливает воду</span>
+							<span>от 360 руб.</span>
+							<span>Заказать</span>
+						</div>
+					</div>
+					<div id="tab3" class="price__table">
+						<div class="price__row modal__button">
+							<span>Прочистка дренажной системы</span>
+							<span>от 818 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Заправка фреоном</span>
+							<span>от 981 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Замена реле</span>
+							<span>от 654 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Замена термостата (терморегулятора)</span>
+							<span>от 600 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Устранение утечки хладагента</span>
+							<span>от 763 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Устранение засора капиллярного трубопровода</span>
+							<span>от 709 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Ремонт платы (модуля управления)</span>
+							<span>от 1036 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Замена ТЭНа</span>
+							<span>от 818 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Замена датчика температуры</span>
+							<span>от 981 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Замена трубопровода</span>
+							<span>от 872 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Мелкий ремонт</span>
+							<span>от 436 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Замена вентилятора обдува испарителя</span>
+							<span>от 1090 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Не морозит</span>
+							<span>от 600 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Перемораживает</span>
+							<span>от 600 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Не выключается</span>
+							<span>от 600 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Покрывается льдом</span>
+							<span>от 600 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Протекает</span>
+							<span>от 763 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Шумит</span>
+							<span>от 436 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Работает только морозилка</span>
+							<span>от 600 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Не морозит верхняя камера</span>
+							<span>от 600 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Не работает морозилка</span>
+							<span>от 600 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Не работает</span>
+							<span>от 600 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Включается и сразу выключается</span>
+							<span>от 763 руб.</span>
+							<span>Заказать</span>
+						</div>
+						<div class="price__row modal__button">
+							<span>Бьет током</span>
+							<span>от 436 руб.</span>
+							<span>Заказать</span>
+						</div>
+					</div>
+					<div class="price__bottom">
+						<div class="price__bottom-top">
+							<div class="price__button">
+								<div class="desktop">
+									Это не весь список, посмотреть все услуги вы можете <span>нажав сюда.</span>
+								</div>
+								<div class="mobile">
+									Показать все
+								</div>
+							</div>
+							<span>Возможна безналичная оплата</span>
+						</div>
+						<button class="button button__price modal__button">Заказать</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end price -->
+
+	<!-- begin company -->
+	<section id="company" class="company margin">
+		<div class="company-bg"></div>
+		<div class="container">
+			<div class="company-wrapper">
+				<h2 class="company__title">О нашей <span>компании</span>
+					BT&nbsp;master в Воронеже</h2>
+				<div class="company__text">Не стоит воспринимать нас как рядовой сервисный центр. BT Master — команда
+					профессионалов, решившая создать первую в Воронеже мастерскую, способную изменить отношение людей к ремонту
+					техники. У жителей города теперь есть место, в котором гарантируют 100% результат, высокое качество и
+					соблюдение
+					сроков. Место, куда не страшно сдать на ремонт любой вид бытовой техники.</div>
+				<div class="form company__form">
+					<div class="company__form-text">Позвоните нам, обсудим Ваши вопросы.</div>
+					<form action="#">
+						<div class="input-wrapper">
+							<span>
+								<input name="tel" type="tel" placeholder="Ваш номер" required>
+							</span>
+							<div class="submit-button">
+								<input type="submit" value="Оставить заявку">
+							</div>
+						</div>
+					</form>
+					<small>Нажимая кнопку “Оставить заявку” Вы даете соглашение на обработку данных.</small>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end company -->
+
+	<!-- begin master -->
+	<section id="master" class='master margin'>
+		<div class='container'>
+			<h2 class='master__title title'>Познакомьтесь <span>с нашими</span> мастерами</h2>
+			<div class='master-wrapper'>
+				<div class="master__item">
+					<div class="master__item-left">
+						<div class="master__item-img" style="background-image: url(assets/img/master/1.png);"></div>
+					</div>
+					<div class="master__item-right">
+						<div class="master__item-name">Иван Морозов</div>
+						<div class="master__item-exp"><span>Стаж:</span> 7 лет</div>
+						<div class="master__item-prof"><span>Профнаправление:</span> Ремонт стиральных машин</div>
+					</div>
+				</div>
+				<div class="master__item">
+					<div class="master__item-left">
+						<div class="master__item-img" style="background-image: url(assets/img/master/2.png);"></div>
+					</div>
+					<div class="master__item-right">
+						<div class="master__item-name">Егор Князев</div>
+						<div class="master__item-exp"><span>Стаж:</span> 10 лет</div>
+						<div class="master__item-prof"><span>Профнаправление:</span> Ремонт холодильников</div>
+					</div>
+				</div>
+				<div class="master__item">
+					<div class="master__item-left">
+						<div class="master__item-img" style="background-image: url(assets/img/master/3.png);"></div>
+					</div>
+					<div class="master__item-right">
+						<div class="master__item-name">Сергей Мартынов</div>
+						<div class="master__item-exp"><span>Стаж:</span> 6 лет</div>
+						<div class="master__item-prof"><span>Профнаправление:</span>Ремонт посудомоек</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end master -->
+
+	<!-- begin feedback -->
+	<section id="feedback" class="feedback">
+		<div class="container">
+			<h2 class="title feedback__title">
+				<span class="desc">Почитайте <small>что пишут в Воронеже</small> о нашей компании</span>
+				<span class="mobile">Отзывы</span>
+			</h2>
+			<div class="feedback__slider">
+				<div class="swiper-container feedback-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="feedback__item">
+								<div class="feedback__img" style="background-image: url(assets/img/feedback/1.png);"></div>
+								<div class="feedback__name">Александр Козлов</div>
+								<div class="feedback__text">Я уже с десяток разных воронежских мастерских опробовал, пока здесь живу и
+									основываясь на своем опыте могу
+									сказать, что эта лучше всех. По стоимости всегда выходит выгоднее, работают зачастую быстрее, да и на
+									качество
+									ремонта жаловаться не приходилось.</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="feedback__item">
+								<div class="feedback__img" style="background-image: url(assets/img/feedback/2.png);"></div>
+								<div class="feedback__name">Жанна Кирова</div>
+								<div class="feedback__text">После переезда в Воронеж перестала работать стиральная машина. Пришлось
+									искать мастерскую в новом городе.
+									Долго мучились, но определились. Безумно рады, что наткнулись на BT. Приехали в день вызова, все
+									починили,
+									выдали гарантию.</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="feedback__item">
+								<div class="feedback__img" style="background-image: url(assets/img/feedback/3.png);"></div>
+								<div class="feedback__name">Валерия Соловьева</div>
+								<div class="feedback__text">
+									Впечатлена тем, какими на самом деле могут быть мастера. Резвые, внимательные, отзывчивые. Любящие
+									свое дело.
+									Вот сотрудники BT Master именно такие. Очень довольна их ремонтом моей стиральной машины, никто бы
+									лучше не
+									сделал.</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="feedback__item">
+								<div class="feedback__img" style="background-image: url(assets/img/feedback/4.png);"></div>
+								<div class="feedback__name">София Мирная</div>
+								<div class="feedback__text">Очень понравилась эта фирма! Без обмана и всяческих махинаций пришли и
+									буквально за час вернули к жизни наш
+									старенький холодильник. Думаю, таких хороших мастеров в нашем краю больше не отыскать! Огромное вам
+									спасибо!</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="feedback__item">
+								<div class="feedback__img" style="background-image: url(assets/img/feedback/5.png);"></div>
+								<div class="feedback__name">Владимир Панин</div>
+								<div class="feedback__text">Не крутился барабан в стиральной машине Indesit. Пришел мастер, снял корпус,
+									посмотрел. Оказалось, когда жена стирала свое белье, «косточка» выскочила и попала под резинку и ей-то
+									барабан
+									и заклинило. Спасибо СЦ «BTmaster», что решили проблему оперативно – в день обращения. Машинка снова
+									заработала, жена довольна. :)</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="feedback__item">
+								<div class="feedback__img" style="background-image: url(assets/img/feedback/6.png);"></div>
+								<div class="feedback__name">Игорь Уткин</div>
+								<div class="feedback__text">Возникла проблема — холодильник Аристон начал шуметь громче, чем обычно.
+									Оставил
+									заявку на вашем сайте. Перезвонили через минуту буквально, оформили вызов. Мастер пришел, сделал
+									бесплатно
+									диагностику, выяснил что ослабли амортизаторы мотор-компрессора. Могу сказать, видно, что человек
+									профессионал
+									своего дела — регулировка заняла от силы 30 минут. Четко работаете, цены нормальные, гарантия, все
+									супер!
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="feedback__item">
+								<div class="feedback__img" style="background-image: url(assets/img/feedback/7.png);"></div>
+								<div class="feedback__name">Вика Астафьева</div>
+								<div class="feedback__text">Под холодильником Bosh постоянно стала собираться вода. Позвонила в
+									«BTmaster», по
+									телефону проконсультировали по возможным причинам и ценам, прислали мастера. Он сразу понял в чем
+									дело, сказал
+									какой-то дренажный слив засорился. Почистил быстро, теперь ничего не протекает. Заплатила только за
+									работу,
+									выезд и диагностика бесплатные, так что недорого обошлось. </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+				<div class="slide-prev-feedback">
+					<svg class='arrow arrow_rotate'>
+						<use xlink:href='assets/sprite.svg#arrow'></use>
+					</svg>
+				</div>
+				<div class="slide-next-feedback">
+					<svg class='arrow'>
+						<use xlink:href='assets/sprite.svg#arrow'></use>
+					</svg>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end feedback -->
+
+	<!-- begin contact -->
+	<section id="contact" class="contact">
+		<div class="map">
+
+		</div>
+		<div class="container">
+			<div class="contact__right">
+				<h2 class="contact__title">Наши контакты</h2>
+				<div class="contact__subtitle">свяжитесь с нами любым удобным для Вас способом</div>
+				<a href="tel:+79271318032" class="contact__tel">
+					<svg class='phone'>
+						<use xlink:href='assets/sprite.svg#phone'></use>
+					</svg>
+					<span>+7 (927) 131-80-32</span>
+				</a>
+				<div class="contact__form">
+					<div class="contact__form-title">
+						Задайте нам вопрос
+					</div>
+					<form action="#">
+						<div class="input-wrapper">
+							<span>
+								<input name="name" type="text" placeholder="Ваше имя">
+							</span>
+							<span>
+								<input name="tel" type="tel" placeholder="Ваш телефон" required>
+							</span>
+						</div>
+						<textarea name="comment" cols="30" rows="5" required placeholder="Ваш комментарий"></textarea>
+						<div class="contact__form-bottom">
+							<div class="submit-button">
+								<input type="submit" value="Отправить">
+							</div>
+							<small>Нажимая кнопку “Отправить” Вы соглашаетесь
+								на обработку Ваших данных</small>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end contact -->
+
+	<!-- begin footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-wrapper">
+				<div class="footer__left">
+					<a href="#header" class="scroll logo-wrapper">
+						<svg class='logo'>
+							<use xlink:href='assets/sprite.svg#logo'></use>
+						</svg>
+						<p><span>BT <small>master</small></span>
+							Ремонт бытовой техники
+							в Воронеже</p>
+					</a>
+				</div>
+				<div class="footer__middle">
+					<div class="footer__middle-top">
+						<!-- <a href="#" class="footer__pol">Политика конфиденциальности</a> -->
+						<ul class="footer__menu">
+							<li><a href="#features">Преимущества</a></li>
+							<li><a href="#price">Прайс</a></li>
+							<li><a href="#company">О компании</a></li>
+							<li><a href="#feedback">Отзывы</a></li>
+							<li><a href="#contact">Контакты</a></li>
+						</ul>
+					</div>
+					<small>Представленная информация на сайте не&nbsp;является публичной офертой</small>
+				</div>
+				<div class="footer__right">
+					<div class="footer__right-top">
+						<a class="header__tel" href="tel:+79271318032">
+							<svg class='phone'>
+								<use xlink:href='assets/sprite.svg#phone'></use>
+							</svg>
+							<span>+7 (927) 131-80-32</span>
+						</a>
+						<button class="button footer__button modal__button">Вызвать мастера</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- end footer -->
+
+	<!-- begin call modal -->
+	<div class="popup popup-call">
+		<div class="popup-content">
+			<div class="popup-close">&times;</div>
+			<div class="form">
+				<div class="form__subtitle">
+					Заполните поля ниже и мы перезвоним <br> Вам за 5&nbsp;минут!
+				</div>
+				<form action="#">
+					<span>
+						<input name="name" type="text" placeholder="Ваше имя">
+					</span>
+					<span>
+						<input name="tel" type="tel" placeholder="Ваш телефон" required>
+					</span>
+					<div class="submit-button">
+						<input class="submit" type="submit" value="Перезвоните мне">
+					</div>
+					<small>Нажимая кнопку “Перезвоните мне” Вы соглашаетесь на обработку <br>
+						Ваших данных.</small>
+				</form>
+			</div>
+		</div>
+	</div>
+	<!-- end call modal -->
+
+	<!-- begin thank modal-->
+	<div class="popup popup-thank">
+		<div class="popup-content">
+			<div class="popup-close">&times;</div>
+			<div class="form">
+				<div class="form__subtitle">
+					Мы перезвоним Вам за 5 минут
+				</div>
+				<button class="button popup-thank__button">Хорошо</button>
+			</div>
+		</div>
+	</div>
+	<!-- end thank modal -->
+
+	<!-- Jquery -->
+	<script src="https://code.jquery.com/jquery-3.5.0.min.js"
+		integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+
+
+	<script src='assets/js/vendor.min.js'></script>
+	<!-- Основной js файл -->
+	<script src='assets/js/app.js'></script>
+
+
+	<!-- Основной файл стилей -->
+	<link rel="stylesheet" href="assets/css/style.css">
+
+</body>
+
+</html>
